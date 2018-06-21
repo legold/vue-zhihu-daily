@@ -24,6 +24,7 @@ export default new Router({
     {
       path: '/',
       name: 'index',
+      meta: { index: 0 },   //meta对象的index用来定义当前路由的层级,由小到大,由低到高
       component: index,
       // children: [
       //   {
@@ -33,8 +34,15 @@ export default new Router({
       // ]
     },
     {
+      path: '/theme/:id',
+      name: 'theme',
+      meta: { index: 1 },
+      component: theme
+    },
+    {
       path: '/detail/:id',
       name: 'detail',
+      meta: { index: 2 },
       component: detail,
       /*
       children: [
@@ -48,13 +56,10 @@ export default new Router({
     {
       path: '/comment/:id',
       name: 'comment',
+      meta: { index: 3 },
       component: acomment
     },
-    {
-      path: '/theme/:id',
-      name: 'theme',
-      component: theme
-    },
+    
     {
       path: '/demo',
       name: 'demo',
