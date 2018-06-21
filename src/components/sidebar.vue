@@ -11,7 +11,7 @@
                           <span class="name">legold</span>
                           <div class="address">
                               <i class="iconfont icon-github"></i> 
-                              <a href="https://github.com/yangrenmu" class="link">to github</a>
+                              <a href="https://github.com/legold" class="link">to github</a>
                           </div>
                       </div>
                   </div>
