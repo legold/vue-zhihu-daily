@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset style*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,select,textarea,p, button,
+table,th,td,blockquote,address,hr,figure,section,nav{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;}
+fieldset,img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+address,caption,cite,code,dfn,em,strong,th,i,var{font-weight:normal;font-style:normal;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+dl,ul,ol,li{list-style:none;}
+input,a{border:0;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);} /*去掉手机端按钮点击出现的蓝色边框*/
+input[type=text],input[type=button]{outline:0;}
+body,th,td,input,select,textarea,button {/* font-size:12px; */font-family:"Helvetica Neue","Microsoft YaHei",Arial, Helvetica, Verdana, Tahoma,sans-serif;}
+img{max-width:100%;vertical-align:middle;border:0;}  /*给img最大宽度设置为100%*/
+input,textarea,button,select,a{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:none;-webkit-appearance:none;appearance:none;border:none;text-decoration:none;}
+a:hover{text-decoration:none;}
+
+body{
+	margin:0 auto;
+	max-width:640px;
+	min-width:300px;
+	position:relative;
+	-webkit-font-smoothing:antialiase;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+}
+
+.clearfix{zoom:1;}
+.clearfix:after{
+	content:'.';
+	display:block;
+	width:0;
+	height:0;
+	font-size:0;
+	clear:both;
+	visibility:hidden;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.pos_r{
+	position:relative;
+}
+.pos_a{
+	position:absolute;
+}
+
+
+
